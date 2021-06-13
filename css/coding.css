@@ -1,3 +1,7 @@
 h1 {
     color: blueviolet;
 }
+a {
+    border: 2px solid blue;
+    background-color: dimgray;
+}
