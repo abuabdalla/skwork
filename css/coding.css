@@ -5,3 +5,29 @@ a {
     border: 2px solid blue;
     background-color: dimgray;
 }
+
+table  {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+td {
+    text-align: left;
+}
+
+th,td{
+    padding: 8px;
+}
+
